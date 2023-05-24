@@ -142,7 +142,7 @@ function generateCV() {
   const sendPost = async () => {
     try {
       const response = await fetch(
-        "https://resumecreator-66067-default-rtdb.firebaseio.com/resumate.json",
+        "https://resumecreator-66067-default-rtdb.firebaseio.com/resumecreator.json",
         {
           method: "POST",
           body: JSON.stringify({
