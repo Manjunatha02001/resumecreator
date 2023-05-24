@@ -142,7 +142,7 @@ function generateCV() {
   const sendPost = async () => {
     try {
       const response = await fetch(
-        "https://resumate-f7ca2-default-rtdb.firebaseio.com/resumate.json",
+        "https://resumecreator-66067-default-rtdb.firebaseio.com/resumate.json",
         {
           method: "POST",
           body: JSON.stringify({
@@ -196,4 +196,4 @@ function printPortfolio() {
 
 document
   .getElementById("mailing")
-  .write('<a class="btn" href="mailto:fuzailmalik2000@gmail.com">MAIL ME</a>');
+  .write('<a class="btn" href="mailto:manjunatha.m02001@gmail.com">MAIL ME</a>');
